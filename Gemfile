@@ -30,9 +30,14 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-gem 'will_paginate', '3.1.5'
+gem 'will_paginate', '~> 3.1.7'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'rails-controller-testing'
+# ADDING WEBPACKER TO GEM
+gem 'webpacker', '~> 3.3'
+
+#REACT GEM FOR RAILS
+gem  'react-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
